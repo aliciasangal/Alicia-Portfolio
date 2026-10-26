@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio de proyectos web de Alicia Sangal. Explora mis trabajos, tecnologías y proyectos." />
-  <title>Alicia Sangal — Portfolio</title>
+  <meta name="description" content="Portfolio de proyectos web de Alicia Santos. Explora mis trabajos, tecnologías y proyectos." />
+  <title>Alicia Santos — Portfolio</title>
   <style>
     :root {
       /* Cyberpunk palette: Periwinkle #E3D9FC, Hyper Magenta #BF40FA, Ultrasonic Blue #4928C2, Velvet Purple #5B2A62, Black #040607. */
@@ -105,9 +105,9 @@
     .project-body p { color: var(--muted); font-size: 13px; margin: 0; }
     .tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 17px; }
     .tag { border: 1px solid var(--line); color: #c2c9d0; border-radius: 7px; padding: 4px 8px; font-size: 10px; }
-    .project-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 20px; font-size: 12px; font-weight: 750; }
-    .text-link { color: var(--text); }
-    .text-link span { color: var(--accent); margin-left: 4px; }
+    .project-s { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 20px; font-size: 12px; font-weight: 750; }
+    .text- { color: var(--text); }
+    .text- span { color: var(--accent); margin-left: 4px; }
     .about-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 45px; align-items: start; }
     .about-card { border: 1px solid var(--line); background: var(--panel); border-radius: var(--radius); padding: 25px; }
     .about-card p { margin-top: 0; color: var(--muted); }
@@ -121,7 +121,7 @@
     @media (max-width: 700px) {
       .wrap { width: min(100% - 28px, var(--max)); }
       .nav { min-height: 68px; }
-      .nav-links { display: none; }
+      .nav-s { display: none; }
       .hero { padding-top: 65px; }
       .grid, .about-grid { grid-template-columns: 1fr; }
       .section-head { align-items: start; flex-direction: column; }
@@ -156,7 +156,7 @@
       backdrop-filter: blur(18px);
     }
     .brand-logo { mix-blend-mode: multiply; }
-    .eyebrow, .project-type, .project-links a:hover { color: var(--hyper-magenta); }
+    .eyebrow, .project-type, .project-s a:hover { color: var(--hyper-magenta); }
     h1 em { color: var(--ultrasonic-blue); }
     .button.primary {
       color: var(--periwinkle);
@@ -353,8 +353,8 @@
       object-fit: contain;
     }
     .brand { color: var(--periwinkle); }
-    .nav-links { color: #C3BDD0; }
-    .nav-links a:hover, .text-link:hover { color: var(--hyper-magenta); }
+    .nav-s { color: #C3BDD0; }
+    .nav-s a:hover, .text-:hover { color: var(--hyper-magenta); }
     .pill {
       border-radius: 5px;
       border-color: rgba(227,217,252,.24);
@@ -473,8 +473,8 @@
       border: 1px solid #D1C4F2;
       border-radius: 3px;
     }
-    .text-link { color: #21152F; }
-    .text-link span { color: var(--ultrasonic-blue); }
+    .text- { color: #21152F; }
+    .text- span { color: var(--ultrasonic-blue); }
 
     /* About: flat dark blue/black section, no stacked gradients */
     #sobre-mi, section#sobre-mi {
@@ -559,7 +559,7 @@
     <div class="wrap hero">
       <div class="eyebrow">Portfolio · Desarrollo web · Experiencias digitales</div>
       <h1>Ideas convertidas en<br /><span>experiencias digitales.</span></h1>
-      <p class="hero-copy">Soy Alicia Sangal, desarrolladora web. Este es el espacio donde reúno mis proyectos, experimentos y trabajos: un solo lugar para explorar lo que he creado.</p>
+      <p class="hero-copy">Soy Alicia Santos, desarrolladora web. Este es el espacio donde reúno mis proyectos, experimentos y trabajos: un solo lugar para explorar lo que he creado.</p>
       <div class="hero-actions">
         <a class="pill primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↓</span></a>
         <a class="pill" href="#contacto">Contacto ↗</a>
@@ -631,7 +631,7 @@
           <h2>Construyo webs con intención.</h2>
         </div>
         <div class="about-card">
-          <p>Soy Alicia Sangal, desarrolladora web interesada en crear experiencias digitales claras, rápidas y atractivas. En cada proyecto busco combinar diseño, funcionalidad y atención al detalle.</p>
+          <p>Soy Alicia Santos, desarrolladora web interesada en crear experiencias digitales claras, rápidas y atractivas. En cada proyecto busco combinar diseño, funcionalidad y atención al detalle.</p>
           <p><strong>Mi stack</strong></p>
           <div class="skills"><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">React</span><span class="skill">Figma</span><span class="skill">Git</span></div>
           <div style="margin-top:22px"><a class="text-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Más sobre mi experiencia <span>↗</span></a></div>
@@ -647,7 +647,7 @@
     </section>
   </main>
 
-  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> Alicia Sangal. Hecho con intención.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> Alicia Santos. Hecho con intención.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
     const filters = document.querySelectorAll("[data-filter]");
